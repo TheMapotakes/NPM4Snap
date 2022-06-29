@@ -1,6 +1,6 @@
 SnapExtensions.primitives.set(
   'SciS_SetSciSnapLogo(imagelogo)',
-  function () {
+  function (imagelogo) {
     IDE_Morph.prototype.createLogo = function () {
       var myself = this;
 
